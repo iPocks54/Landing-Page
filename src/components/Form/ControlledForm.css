@@ -1,0 +1,27 @@
+.formjumbotron {
+  border-style: solid;
+  text-align: Center;
+  background-color: rgba(238, 225, 225, 0.658);
+  border-color: rgba(22, 22, 19, 0.705);
+  padding: 2rem;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 5vw;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.466) !important;
+}
+
+.divForm {
+  display: flex;
+  align-items: center;
+}
+
+.inputs {
+  display: flex;
+  margin-left: 2vw !important;
+}
+
+@media (max-width: 650px) {
+  .formjumbotron {
+    margin-top: 20vh;
+  }
+}

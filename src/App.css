@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.box {
+  width: 100%;
+  height: 1800px;
+  background: #c6ffdd; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #f7797d,
+    #fbd786,
+    #c6ffdd
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #f7797d,
+    #fbd786,
+    #c6ffdd
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.image {
+  background-image: url("https://www.elsetge.cat/myimg/f/194-1942158_awesome-sunset-wallpaper-beach-sunset-palm-trees.jpg");
+  min-width: 100%;
+  height: 100vh;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.image1 {
+  min-width: 100%;
+  height: 100%;
+  padding: 10vh;
+  z-index: 0;
+}
+
+.image1d {
+  min-width: 100%;
+  height: 100%;
+  padding: 10vh;
+  padding-left: 0rem;
+  padding-right: 5rem;
+}
+
+.carouseldiv {
+  min-width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.myjumbotron {
+  background-color: rgba(0, 0, 0, 0.236);
+  margin: 9vw;
+  border-radius: 50px;
+}
+
+.myjumbotron2 {
+  text-align: Center;
+  background-color: rgba(238, 225, 225, 0.24);
+  border-color: rgba(43, 43, 37, 0.568);
+  border-spacing: 10px;
+  padding: 0;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 5vw;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.74) !important;
+}
+
+.hstyle {
+  color: rgb(218, 204, 188);
+  font-family: fantasy;
+}
+.pstyle {
+  color: white;
+}
+
+.descriptionstyle {
+  color: rgb(71, 2, 2);
+  text-align: justify;
+  font-family: "Roboto";
+}
+
+.buttonstyle {
+  background-color: rgb(219, 146, 51) !important;
+  border-color: rgb(219, 146, 51) !important;
+}
+.buttonstyle:hover,
+.buttonstyle:focus,
+.buttonstyle:active,
+.open > .dropdown-toggle.buttonstyle {
+  color: #fff;
+  background-color: #a15d04 !important;
+  border-color: #a15d04 !important;
+  box-shadow: none !important;
+}
+
+.stylefooter {
+  background-color: rgb(46, 53, 53);
+}
+
+.mycarousel {
+  width: 50rem;
+  padding-bottom: 7vh;
+}
+
+@media (max-width: 650px) {
+  .image {
+    background-position: center center;
+  }
+
+  .myjumbotron {
+    margin-top: 20vh;
+  }
+
+  .myjumbotron2 {
+    margin-top: 5vh;
+    margin-left: 7vw;
+    margin-right: 7vw;
+  }
+
+  .image1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 0;
+  }
+  .image1d {
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+  }
+  .mycarousel {
+    width: 23rem;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    padding-right: 10vw;
+    padding-left: 10vw;
+  }
+}
